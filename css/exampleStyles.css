@@ -1,0 +1,21 @@
+/*  Styles needed only for this guide. Do not transfer to other projects  */
+.paletteContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.paletteBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+  width: 25%;
+}
+
+.palette {
+  height: 70px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=examplestyles.css.map */

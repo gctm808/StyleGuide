@@ -1,0 +1,154 @@
+/*  Desktop Stylesheet  */
+
+/*  Google Font  */
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+
+
+/*            */
+/*  Variables */
+/*            */
+
+/*  Colors  */
+$red: #d32323;
+$blue: #0073bb;
+$green: #41a700;
+$black: #333333;
+$light-gray: #f5f5f5;
+$gray: #e6e6e6;
+$border: #cccccc;
+$light-border: #e6e6e6;
+$subtle: #999999;
+$link: #0073bb;
+
+/*  Color Variables  */
+$primary-color: $blue;
+$secondary-color: $red;
+$text-primary-color: $black;
+$text-subtle-color: $subtle;
+$link-color: $link;
+$subtle-color: $subtle;
+$bg-color: $light-gray;
+$secondary-bg-color: $gray;
+$border-color: $border;
+$secondary-border-color: $gray;
+$focus-border-color: $blue;
+
+/*  Font Variables  */
+$font-family: 'Arsenal', sans-serif;
+$fontsize-h1: 36px;
+$fontsize-h2: 27px;
+$fontsize-h3: 21px;
+$fontsize-h4: 16px;
+$fontsize-p: 16px;
+$fontsize-small: 14px;
+
+
+/*          */
+/*  Classes */
+/*          */
+
+
+/*  Global */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+/*  Text  */
+h1 {
+    font-size: $fontsize-h1;
+}
+
+h2 {
+    font-size: $fontsize-h2;
+}
+
+h3 {
+    font-size: $fontsize-h3;
+}
+
+h4 {
+    font-size: $fontsize-h4;
+}
+
+p {
+    font-size: $fontsize-p;
+}
+
+.text-link {
+    color: $link-color;
+    font-size: $fontsize-p;
+    text-decoration: none;
+}
+
+.text-subtle {
+    color: $subtle-color;
+    font-size: $fontsize-p;
+}
+
+.text-small {
+    font-size: $fontsize-small;
+}
+
+.list-border > li {
+    padding: 18px 0;
+    border-bottom: 1px solid $border;
+}
+
+/*  Change the attribute on the text classes to just color  */
+/*  Color */
+.primary-color {
+    background-color: $primary-color;
+}
+
+.secondary-color {
+    background-color: $secondary-color;
+}
+
+.third-color {
+    background-color: $black;
+}
+
+.bg-primary {
+    background-color: $bg-color;
+}
+
+.bg-secondary {
+    background-color: $secondary-bg-color;
+}
+
+.bg-third {
+    background-color: $black;
+}
+
+.border-primary {
+    border: 1px solid $border-color;
+}
+
+.border-secondary {
+    border: 1px solid $secondary-border-color;
+}
+
+.border-focus {
+    border: 1px solid $focus-border-color;
+}
+
+.border-success {
+    border: 1px solid $green;
+}
+
+.border-error {
+    border: 1px solid $red;
+}
+
+
+
+
+
