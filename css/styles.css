@@ -89,6 +89,22 @@ p {
   background-color: #333333;
 }
 
+.text-primary {
+  color: #0073bb;
+}
+
+.text-secondary {
+  color: #d32323;
+}
+
+.text-third {
+  color: #333333;
+}
+
+.text-subtle {
+  color: #999999;
+}
+
 .border-primary {
   border: 1px solid #cccccc;
 }
@@ -107,6 +123,63 @@ p {
 
 .border-error {
   border: 1px solid #d32323;
+}
+
+.arrow-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  width: 100px;
+}
+
+.arrow-label h4 {
+  padding: 0 8px;
+}
+
+.arrow-label:hover {
+  color: #af1d1d;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.secondary-button {
+  background-color: #d32323;
+  color: #ffffff;
+  border: none;
+}
+
+.secondary-button:hover {
+  background: #af1d1d;
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: #0073bb;
+  color: #ffffff;
+  border: none;
+}
+
+.primary-button:hover {
+  background: #00619e;
+  cursor: pointer;
+}
+
+.clear-button {
+  background-color: #f5f5f5;
+  color: #4d4c4c;
+  border: 1px solid #cccccc;
+}
+
+.clear-button:hover {
+  background: #ffffff;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

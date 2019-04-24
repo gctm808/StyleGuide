@@ -18,4 +18,12 @@
   width: 100%;
 }
 
-/*# sourceMappingURL=examplestyles.css.map */
+.icons i {
+  padding: 20px;
+}
+
+.buttons {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=exampleStyles.css.map */

@@ -10,28 +10,27 @@
 
 /*  Colors  */
 $red: #d32323;
+$dark-red: #af1d1d;
 $blue: #0073bb;
+$dark-blue: #00619e;
 $green: #41a700;
 $black: #333333;
+$lighter-black: #4d4c4c;
 $light-gray: #f5f5f5;
 $gray: #e6e6e6;
 $border: #cccccc;
 $light-border: #e6e6e6;
 $subtle: #999999;
 $link: #0073bb;
+$white: #ffffff;
 
 /*  Color Variables  */
 $primary-color: $blue;
+$primary-hover: $dark-blue;
 $secondary-color: $red;
-$text-primary-color: $black;
-$text-subtle-color: $subtle;
-$link-color: $link;
-$subtle-color: $subtle;
+$secondary-hover: $dark-red;
 $bg-color: $light-gray;
 $secondary-bg-color: $gray;
-$border-color: $border;
-$secondary-border-color: $gray;
-$focus-border-color: $blue;
 
 /*  Font Variables  */
 $font-family: 'Arsenal', sans-serif;
@@ -83,13 +82,13 @@ p {
 }
 
 .text-link {
-    color: $link-color;
+    color: $link;
     font-size: $fontsize-p;
     text-decoration: none;
 }
 
 .text-subtle {
-    color: $subtle-color;
+    color: $subtle;
     font-size: $fontsize-p;
 }
 
@@ -128,16 +127,33 @@ p {
     background-color: $black;
 }
 
+.text-primary {
+    color: $primary-color;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+.text-third {
+    color: $black;
+}
+
+.text-subtle {
+    color: $subtle;
+}
+
+
 .border-primary {
-    border: 1px solid $border-color;
+    border: 1px solid $border;
 }
 
 .border-secondary {
-    border: 1px solid $secondary-border-color;
+    border: 1px solid $light-border;
 }
 
 .border-focus {
-    border: 1px solid $focus-border-color;
+    border: 1px solid $blue;
 }
 
 .border-success {
@@ -148,7 +164,60 @@ p {
     border: 1px solid $red;
 }
 
+.arrow-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    width: 100px;
+}
 
+.arrow-label h4 {
+    padding: 0 8px; 
+}
 
+.arrow-label:hover {
+    color: $secondary-hover;
+}
 
+.button {
+    font-size: $fontsize-h4;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 10px 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+.secondary-button {
+    background-color: $secondary-color;
+    color: $white;
+    border: none;
+}
+
+.secondary-button:hover {
+    background: $secondary-hover;
+    cursor: pointer;
+}
+
+.primary-button {
+    background-color: $primary-color;
+    color: $white;
+    border: none;
+}
+
+.primary-button:hover {
+    background: $primary-hover;
+    cursor: pointer;
+}
+
+.clear-button {
+    background-color: $bg-color;
+    color: $lighter-black;
+    border: 1px solid $border;
+}
+
+.clear-button:hover {
+    background: $white;
+    cursor: pointer;
+}
 
